@@ -6,8 +6,8 @@ def solution(participant, completion):
     completion_counter = Counter(completion)
     
     
-    difference = participant_counter - completion_counter
+    answer = participant_counter - completion_counter
     
     
-    return list(difference.keys())[0]
+    return list(answer.keys())[0]
 
